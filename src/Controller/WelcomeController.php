@@ -26,9 +26,10 @@ class WelcomeController extends AbstractController
    */
   public function hello(string $name) {
 
-      return $this->render('hello_page.html.twig', [
-        'name' => $name,
-      ]);
+//      return $this->render('hello_page.html.twig', [
+//        'name' => $name,
+//      ]);
+
   }
 
 }
