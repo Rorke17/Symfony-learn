@@ -15,7 +15,7 @@ class ContactType extends AbstractType
     {
         $builder
             ->add('name')     // ->add('name', TextType::class) that's the same, default field type is standart HTML input
-            ->add('form', EmailType::class)
+            ->add('email', EmailType::class)
             ->add('dateOfBirth', DateTimeType::class, array(
               'format' => 'dd-MM-yyyy',
               'years' => range(1900, 2018),
